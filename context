@@ -1,0 +1,44 @@
+
+1. Project Overview
+
+Objective: Youdoc is a cross-platform mobile health app (iOS + Android) built with React Native + Expo.
+The MVP will focus on four main features:
+
+User Authentication
+
+AI Symptom Checker
+
+Medication Reminders
+
+See a provider
+
+Basic Profile & Settings
+    •	Expo React Native (Frontend)
+
+    •	Firebase (Backend & Auth) Open AI (Symptom checker)
+     Functional Requirements
+
+    2.1 Authentication (Firebase)
+
+        •	User Signup: Email/password validation with Firebase Auth
+
+        •	User Login: Session management with JWT tokens
+
+        •	Logout: Clear session and navigation to auth screen
+
+        •	Error Handling: Display auth errors (invalid email, weak password, etc.)
+
+        Tech Stack
+
+Frontend: React Native (Expo)
+
+Navigation: React Navigation
+
+Styling: NativeWind (Tailwind for React Native)
+font : readex pro
+Backend: Firebase Auth, Firestore, Functions
+
+AI: OpenAI API (gpt-4o-mini for speed & cost efficiency)
+
+Push Notifications: Expo Notifications
+
